@@ -1,0 +1,19 @@
+{
+  "name": "sftp-upload-action",
+  "version": "2.0.4",
+  "description": "sftp upload using sftp-sync-deploy",
+  "private": true,
+  "scripts": {
+    "build": "ncc build sftp.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "@actions/core": "1.11.1",
+    "minimatch": "10.0.1",
+    "ssh2-sftp-client": "11.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.2",
+    "jest": "^29.6.2"
+  }
+}
